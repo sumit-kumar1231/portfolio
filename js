@@ -1,13 +1,13 @@
 var tl = gsap.timeline();
 tl.from('.my-name span',{
     x: '100vw',
-    duration: .8,
+    duration: .6,
     stagger: .3,
 })
 tl.to('#blackB',{
     height: 0,
-    duration: 1,
-    delay: 1,
+    duration: .7,
+    delay: .7,
 });
 tl.to('#greenB',{
     height: 0,

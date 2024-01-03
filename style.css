@@ -16,6 +16,7 @@ body {
 }
 .bg-background {
     background-color: #20242d;
+    min-height: 100vh;
 }
 .nav ul {
     list-style: none;
@@ -65,8 +66,7 @@ header {
     color: #fff;
 } */
 .banner-img  {
-    width: 500px;
-    height: 500px;
+    aspect-ratio: 1;
 }
 .banner-img img {
     border-radius: 50%;
@@ -98,10 +98,12 @@ header {
 .png-img img {
     width: 60px;
     height: 60px;
+    object-fit: cover;
 }
 .border-graphic {
     border: 1px solid #01eefe;
     border-radius: 20px;
+    min-height: 250px;
 }
 .portfolio h1 {
     border-bottom: 2px solid #fff;
@@ -132,17 +134,20 @@ header {
     opacity: 1;
     top: 0;
 }
-.footer-text h6 {
+#contact a h6 {
     font-size: 18px;
 }
-.footer-text a {
+#contact a {
     font-size: 20px;
     color: #fff;
     transition: all .3s;
 }
-.footer-text a:hover {
-    color: #01eefe;
+
+#contact a:hover{
+    color:#01eefe;
 }
-.contact-footer a {
-    font-size: 22px;
-}
+/* .container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+} */
