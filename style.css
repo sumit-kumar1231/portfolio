@@ -61,10 +61,13 @@ header {
     display: flex;
     color: #01eefe;
 }
-/* .social-icons a:hover {
+.social-icons a:hover {
     border-color: #fff;
     color: #fff;
-} */
+    background-color: #01eefe;
+    transition: all .3s;
+     
+}
 .banner-img  {
     aspect-ratio: 1;
 }
@@ -104,6 +107,9 @@ header {
     border: 1px solid #01eefe;
     border-radius: 20px;
     min-height: 250px;
+}
+.border-graphic:hover {
+    transform: scale(1.05);
 }
 .portfolio h1 {
     border-bottom: 2px solid #fff;
